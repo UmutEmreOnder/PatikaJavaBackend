@@ -1,0 +1,3 @@
+DELETE FROM employee
+WHERE birthday < '1980/01/01'
+RETURNING *;

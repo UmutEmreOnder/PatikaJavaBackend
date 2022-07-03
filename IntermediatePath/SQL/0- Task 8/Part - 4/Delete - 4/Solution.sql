@@ -1,0 +1,3 @@
+DELETE FROM employee
+WHERE name LIKE '%a'
+RETURNING *;
